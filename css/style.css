@@ -128,7 +128,7 @@ a{
 
 h3.nombreApellido {
     padding-top: 90px;
-    font-size: 56px;
+    font-size: 42px;
     color: #740E45;
 }
 
@@ -328,4 +328,40 @@ h3.nombreApellido {
 
 .w-50 H2 {
   padding-top: 80PX;
+}
+
+
+
+
+/***********************MEDIA QUERIE*************************/
+
+
+/*************************MQ HEADER MOBILE***********************/
+
+
+@media (max-width:375px) {
+  h3.nombreApellido {
+    padding-top: 90px;
+    font-size: 32px;
+    
+}
+  .profesionProfesion {
+    font-size: 16px;
+  }
+
+  .btn  {
+    font-size: 1rem;
+    padding: 15px 20px;
+    
+}
+
+.w-50 .btn {
+  padding: 15px 40px;
+}
+
+.container .btn {
+  font-size: 1rem;
+  padding: 15px 40px;
+  
+}
 }
