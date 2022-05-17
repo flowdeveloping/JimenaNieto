@@ -342,27 +342,31 @@ h3.nombreApellido {
 @media (min-width:375px) {
   h3.nombreApellido {
     padding-top: 90px;
-    font-size: 42px;
+    font-size: 32px;
     
 }
-  .profesionProfesion {
-    font-size: 16px;
+  .showCase .profesionProfesion {
+    font-size: 24px;
+    margin-top: auto;
   }
 
   .btn  {
     font-size: 1rem;
-    padding: 15px 20px;
-    margin: auto;
+    padding: 15px 50px;
+    margin: 0;
+   
     
 }
 
 .w-50 .btn {
   padding: 15px 40px;
+  
 }
 
 .container .btn {
   font-size: 1rem;
   padding: 15px 40px;
+  
   
 }
 }
