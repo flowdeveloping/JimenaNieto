@@ -339,7 +339,7 @@ h3.nombreApellido {
 /*************************MQ HEADER MOBILE***********************/
 
 
-@media (max-width:375px) {
+@media (min-width:375px) {
   h3.nombreApellido {
     padding-top: 90px;
     font-size: 32px;
