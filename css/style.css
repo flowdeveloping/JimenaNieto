@@ -82,8 +82,8 @@ a{
   justify-content: end;
 }
 .cabezaPrincipal {
-    background-image: linear-gradient(to top, #740E45 0%, #741949 100%);
-}
+  background: rgb(116,14,69);
+  background: linear-gradient(180deg, rgba(116,14,69,1) 0%, rgba(208,56,138,1) 100%);}
 
 .cabezaNav {
     overflow: auto;
@@ -121,6 +121,21 @@ a{
     text-align: center;
     padding: 100px;
 }
+
+/*********HOVER FOTO PERFIL**********/
+.card1 {
+  width: 190px;
+  height: 184px;
+  border-radius: 500px;
+  transition: all .3s;
+ }
+ 
+ 
+ .card1:hover {
+  box-shadow: 0px 0px 30px 5px rgb(255, 251, 255);
+ }
+
+
 
 .showCase .btn {
     margin-top: 70px;
@@ -370,3 +385,6 @@ h3.nombreApellido {
   
 }
 }
+
+
+
