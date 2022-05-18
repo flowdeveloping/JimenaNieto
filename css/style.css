@@ -46,14 +46,11 @@ a{
     padding: 0 20px;    
 }
 
-/* .large {
-    font-size: 1rem;
-} */
 
 .btn {
     display: inline-block;
     font-size: 1.5rem;
-    padding: 15px 40px;
+    
     
 }
 
@@ -66,7 +63,8 @@ a{
 }
 
 .btn-estilo:hover {
-    background: #b11c6b;
+    color: #eef4f7;
+    background: #8d008d;
     
 }
 
@@ -124,8 +122,8 @@ a{
 
 /*********HOVER FOTO PERFIL**********/
 .card1 {
-  width: 190px;
-  height: 184px;
+  width: 240px;
+  height: 230px;
   border-radius: 500px;
   transition: all .3s;
  }
