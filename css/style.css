@@ -241,6 +241,7 @@ h3.nombreApellido {
 
 /*****************PORTFOLIO*******************/
 
+
 .text-center {
     margin-top: 90px;
 }
@@ -249,7 +250,7 @@ h3.nombreApellido {
 
 .team-boxed {
   color:#313437;
-  background-color:#eef4f7;
+  background-color:#740e4486;
 }
 
 .team-boxed p {
@@ -260,6 +261,7 @@ h3.nombreApellido {
   font-weight: bold;
   margin-bottom:40px;
   padding-top:40px;
+  color: #fff;
   
 }
 
