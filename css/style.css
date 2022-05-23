@@ -246,11 +246,18 @@ h3.nombreApellido {
 
 
 /*****************PORTFOLIO*******************/
-.portfolioContenedor {
-  background-color: #740e4486;
+.portfolioContenedor  {
+  
+  margin-top: 50px;
+  
 }
 
 
+/*****************SKILLS*******************/
+
+.teamBoxed {
+  margin-top: 50px;
+  }
 
 
 /******************HAPPY CLIENTS******************/
@@ -452,18 +459,18 @@ h3.nombreApellido {
 @media (min-width:375px) {
   h3.nombreApellido {
     padding-top: 90px;
-    font-size: 32px;
+    font-size: 48px;
 
   }
 
   .showCase .profesionProfesion {
-    font-size: 24px;
+    font-size: 36px;
     margin-top: auto;
   }
 
   .btn {
-    font-size: 1rem;
-    padding: 15px 50px;
+    font-size: 1.5rem;
+    padding: 20px 60px;
     margin: 0;
 
 
