@@ -359,24 +359,6 @@ h3.nombreApellido {
   background-color: #282d32;
 }
 
-/* .footer-dark ul {
-      padding:0;
-      list-style:none;
-      line-height:1.6;
-      font-size:14px;
-      margin-bottom:0;
-    } */
-
-/* .footer-dark ul a {
-      
-      text-decoration:none;
-      opacity:0.6;
-    } */
-
-/* .footer-dark ul a:hover {
-      opacity:0.8;
-    } */
-
 @media (max-width:767px) {
   .footer-dark .item:not(.social) {
     text-align: center;
@@ -487,6 +469,11 @@ h3.nombreApellido {
 
 
   }
+  
+}
+
+@media (max-width:375px) {
+  
   .cardSkills {
     
     height: 50px;
