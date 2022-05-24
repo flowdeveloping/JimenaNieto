@@ -463,6 +463,9 @@ h3.nombreApellido {
 
   }
 
+  .showCase .btn {
+    margin-top: 50px;
+  }
   .showCase .profesionProfesion {
     font-size: 36px;
     margin-top: auto;
@@ -470,7 +473,7 @@ h3.nombreApellido {
 
   .btn {
     font-size: 1.5rem;
-    padding: 20px 60px;
+    padding: 20px 20px;
     margin: 0;
 
 
