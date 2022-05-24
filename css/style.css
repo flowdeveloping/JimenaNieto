@@ -472,11 +472,3 @@ h3.nombreApellido {
   
 }
 
-@media (max-width:375px) {
-  
-  .cardSkills {
-    
-    height: 50px;
-    width: 50px;
-  }
-}
