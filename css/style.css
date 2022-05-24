@@ -255,9 +255,10 @@ h3.nombreApellido {
 
 /*****************SKILLS*******************/
 
-.teamBoxed {
-  margin-top: 50px;
-  }
+.cardSkills {
+  margin-left: 50px ;
+}
+
 
 
 /******************HAPPY CLIENTS******************/
@@ -489,5 +490,10 @@ h3.nombreApellido {
     padding: 15px 40px;
 
 
+  }
+  .cardSkills {
+    margin-left: -40px;
+    height: 150px;
+    width: 150px;
   }
 }
