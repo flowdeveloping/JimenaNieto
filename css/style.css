@@ -15,10 +15,10 @@ body {
 
 h2 {
   font-size: 2.5rem;
-  text-align: center;
   font-weight: 700;
   padding-bottom: 50px;
   color: #740E45;
+  text-align: center;
 }
 
 h3 {
@@ -28,6 +28,7 @@ h3 {
   margin-bottom: 30px;
   font-weight: 800;
   color: #740E45;
+  text-align: center;
 }
 
 p {
@@ -168,7 +169,14 @@ a {
   display: inline-block;
   font-size: 1.5rem;
   padding: 15px 25px;
-  margin-right: -5px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.btnPortfolio1 {
+  font-size: 1rem;
+  padding: 15px 20px;
+  margin-right: 10px;
   margin-top: 10px;
 }
 
@@ -385,11 +393,9 @@ h3.nombreApellido {
 
 
 /************************************ABOUT ME****************************************/
-h2 {
-   
-  
-  margin: 5rem 5rem;
-}
+/* h2 {
+   margin: 5rem 5rem;
+} */
 
 .card {
   margin: auto;
@@ -405,7 +411,7 @@ h2 {
 
 /****************************************CONTACT ME*********************************/
 
-.w-50 H2 {
+.w-50 h2 {
   padding-top: 80PX;
 }
 
