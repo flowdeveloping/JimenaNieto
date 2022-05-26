@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+@import "mixin";
+@import "extend";
+@import "mapas";
 
 /****************RESET****************/
 
@@ -17,7 +20,7 @@ h2 {
   font-size: 2.5rem;
   font-weight: 700;
   padding-bottom: 50px;
-  margin-top: 40px;
+  margin-top: 60px;
   color: #740E45;
   text-align: center;
 }
