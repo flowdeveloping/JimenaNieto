@@ -1,4 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap");
+/*MIXIN*/
+.parrafosConEstilo {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 16px;
+  text-align: center; }
+
+/*mixim con parametros*/
+.parrafosConHambre {
+  font-size: 50px;
+  text-align: right; }
+
+/*EXTEND*/
+.primerEstilo, .segundoEstilo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: right; }
+
+.segundoEstilo {
+  font-size: 36px; }
+
+/*MAPS*/
+.facebook {
+  color: red; }
+
+.instagram {
+  color: blue; }
+
+.twitter {
+  color: yellow; }
+
+.pepeLePu {
+  background-color: red;
+  font-size: 30px;
+  height: 150px;
+  width: 150px; }
+
 /****************RESET****************/
 * {
   margin: 0;
