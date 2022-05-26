@@ -1,19 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
 /****************RESET****************/
+
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /****************GENERALES****************/
+
 html, body {
-  font-family: 'Nunito', sans-serif; }
+  font-family: 'Nunito', sans-serif;
+}
 
 h2 {
   font-size: 2.5rem;
   font-weight: 700;
   padding-bottom: 50px;
   color: #740E45;
-  text-align: center; }
+  text-align: center;
+}
 
 h3 {
   font-size: 1.5rem;
@@ -22,33 +28,40 @@ h3 {
   margin-bottom: 30px;
   font-weight: 800;
   color: #740E45;
-  text-align: center; }
+  text-align: center;
+}
 
 p {
   font-size: 1rem;
   margin: 10px 0;
-  line-height: 1; }
+  line-height: 1;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 /*****************PRELOAD*******************/
+
 .hidden {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .centrado {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #222; }
+  background-color: #222;
+}
 
 #preloader {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+}
 
 #loader {
   display: block;
@@ -62,8 +75,9 @@ a {
   border: 3px solid transparent;
   border-top-color: #9370DB;
   -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite; }
-  #loader:before {
+  animation: spin 2s linear infinite;
+
+  &:before {
     content: "";
     position: absolute;
     top: 5px;
@@ -74,8 +88,10 @@ a {
     border: 3px solid transparent;
     border-top-color: #BA55D3;
     -webkit-animation: spin 3s linear infinite;
-    animation: spin 3s linear infinite; }
-  #loader:after {
+    animation: spin 3s linear infinite;
+  }
+
+  &:after {
     content: "";
     position: absolute;
     top: 15px;
@@ -86,87 +102,119 @@ a {
     border: 3px solid transparent;
     border-top-color: #FF00FF;
     -webkit-animation: spin 1.5s linear infinite;
-    animation: spin 1.5s linear infinite; }
+    animation: spin 1.5s linear infinite;
+  }
+}
 
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+  }
+
   100% {
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
-    transform: rotate(360deg); } }
+    transform: rotate(360deg);
+  }
+}
 
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+  }
+
   100% {
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
-    transform: rotate(360deg); } }
+    transform: rotate(360deg);
+  }
+}
 
 /****************GENERALES BOTON****************/
+
 .contenedor {
   margin: auto;
   max-width: 1300px;
+
   /*despegue del margen*/
   overflow: auto;
-  padding: 0 20px; }
+  padding: 0 20px;
+}
 
 .btn {
   display: inline-block;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+}
 
 .btn-estilo {
   background-color: #740E45;
   color: #ffffff;
   border-radius: 60px;
   font-weight: 300;
-  margin-right: 25px; }
-  .btn-estilo:hover {
+  margin-right: 25px;
+
+  &:hover {
     color: #eef4f7;
-    background: #8d008d; }
+    background: #8d008d;
+  }
+}
 
 .btnPortfolio {
   display: inline-block;
   font-size: 1rem;
   padding: 15px 25px;
   margin-left: 15px;
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
 .btnPortfolio1 {
   font-size: 1rem;
   padding: 15px 20px;
   margin-right: 10px;
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
 /*****************HEADER-NAV*******************/
+
 .collapse {
-  justify-content: end; }
+  justify-content: end;
+}
 
 .cabezaPrincipal {
-  background: #740e45;
-  background: linear-gradient(180deg, #740e45 0%, #d0388a 100%); }
+  background: rgb(116, 14, 69);
+  background: linear-gradient(180deg, rgba(116, 14, 69, 1) 0%, rgba(208, 56, 138, 1) 100%);
+}
 
 .cabezaNav {
   overflow: auto;
   padding-top: 20px;
-  padding-bottom: 20px; }
-  .cabezaNav a {
+  padding-bottom: 20px;
+
+  a {
     color: #ffffff;
-    font-weight: 900; }
-  .cabezaNav img {
-    height: 30px; }
-  .cabezaNav ul {
-    list-style: none; }
-    .cabezaNav ul li a {
+    font-weight: 900;
+  }
+
+  img {
+    height: 30px;
+  }
+
+  ul {
+    list-style: none;
+
+    li a {
       display: block;
-      padding: 20px; }
+      padding: 20px;
+    }
+  }
+}
 
 /*****************MAIN*******************/
+
 .showCase {
   background-image: url(../img/background.png);
   background-repeat: no-repeat;
@@ -174,94 +222,136 @@ a {
   background-size: cover;
   height: 870px;
   text-align: center;
-  padding: 100px; }
+  padding: 100px;
+}
 
 /*********HOVER FOTO PERFIL**********/
+
 .card1 {
   width: 240px;
   height: 240px;
   border-radius: 500px;
-  transition: all .3s; }
-  .card1:hover {
-    box-shadow: 0px 0px 30px 5px #fffbff; }
+  transition: all .3s;
+
+  &:hover {
+    box-shadow: 0px 0px 30px 5px rgb(255, 251, 255);
+  }
+}
 
 .showCase .btn {
-  margin-top: 70px; }
+  margin-top: 70px;
+}
 
 h3.nombreApellido {
   padding-top: 90px;
   font-size: 42px;
-  color: #740E45; }
+  color: #740E45;
+}
 
 .parrafo .profesionProfesion {
   font-size: 32px;
-  color: #740E45; }
+  color: #740E45;
+}
 
 /*****************PORTFOLIO*******************/
+
 .portfolioContenedor {
-  margin-top: 50px; }
+  margin-top: 50px;
+}
 
 /******************HAPPY CLIENTS******************/
+
 .team-boxed {
   color: #313437;
-  background-color: #740e4486; }
-  .team-boxed p {
-    color: #7d8285; }
-  .team-boxed h2 {
+  background-color: #740e4486;
+
+  p {
+    color: #7d8285;
+  }
+
+  h2 {
     font-size: 2.5rem;
     font-weight: bold;
     padding-top: 40px;
-    color: #fff; }
-  .team-boxed .intro {
+    color: #fff;
+  }
+
+  .intro {
     font-size: 16px;
     max-width: 500px;
-    margin: 0 auto; }
-    .team-boxed .intro p {
-      margin-bottom: 0; }
-  .team-boxed .people {
-    padding: 0; }
-  .team-boxed .item {
-    text-align: center; }
-    .team-boxed .item .box {
+    margin: 0 auto;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .people {
+    padding: 0;
+  }
+
+  .item {
+    text-align: center;
+
+    .box {
       text-align: center;
       padding: 30px;
       background-color: #fff;
-      margin-bottom: 30px; }
-    .team-boxed .item .name {
+      margin-bottom: 30px;
+    }
+
+    .name {
       font-weight: bold;
       margin-top: 28px;
       margin-bottom: 8px;
-      color: inherit; }
-    .team-boxed .item .title {
+      color: inherit;
+    }
+
+    .title {
       text-transform: uppercase;
       font-weight: bold;
       color: #d0d0d0;
       letter-spacing: 2px;
-      font-size: 13px; }
-    .team-boxed .item .description {
+      font-size: 13px;
+    }
+
+    .description {
       font-size: 15px;
       margin-top: 15px;
-      margin-bottom: 20px; }
-    .team-boxed .item img {
-      max-width: 160px; }
-  .team-boxed .social {
+      margin-bottom: 20px;
+    }
+
+    img {
+      max-width: 160px;
+    }
+  }
+
+  .social {
     font-size: 18px;
-    color: #a2a8ae; }
-    .team-boxed .social a {
+    color: #a2a8ae;
+
+    a {
       color: inherit;
       margin: 0 10px;
       display: inline-block;
-      opacity: 0.7; }
-      .team-boxed .social a:hover {
-        opacity: 1; }
+      opacity: 0.7;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
 
 /******************FOOTER******************/
+
 .footer-dark {
   margin-top: 50px;
   padding: 35px 0;
   color: #f0f9ff;
-  background-color: #282d32; }
-  .footer-dark .item.social > a {
+  background-color: #282d32;
+
+  .item.social > a {
     font-size: 20px;
     width: 36px;
     height: 36px;
@@ -272,95 +362,144 @@ h3.nombreApellido {
     box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
     margin: 0 8px;
     color: #fff;
-    opacity: 0.75; }
-    .footer-dark .item.social > a:hover {
-      opacity: 0.9; }
-  .footer-dark .copyright {
+    opacity: 0.75;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  .copyright {
     text-align: center;
     padding-top: 24px;
     opacity: 0.3;
     font-size: 13px;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+  }
+}
 
 /***********************************PORTFOLIO*************************************/
+
 .card-title {
-  color: #740e45;
+  color: rgb(116, 14, 69);
   font-size: 24px;
   font-weight: 700;
-  margin: 30px 30px; }
+  margin: 30px 30px;
+}
 
 /************************************ABOUT ME****************************************/
 /* h2 {
    margin: 5rem 5rem;
 } */
+
 .card {
-  margin: auto; }
+  margin: auto;
+}
 
 .card-body {
-  margin-top: 50px; }
+  margin-top: 50px;
+}
 
 .card-text {
-  font-size: 24PX; }
+  font-size: 24PX;
+}
 
 /****************************************CONTACT ME*********************************/
+
 .w-50 h2 {
-  padding-top: 80PX; }
+  padding-top: 80PX;
+}
 
 /*********************************MEDIA QUERIE***********************************/
+
 /*************************MQ HEADER MOBILE***********************/
+
 @media (max-width: 767px) {
   .team-boxed h2 {
     margin-bottom: 25px;
     padding-top: 25px;
-    font-size: 24px; } }
+    font-size: 24px;
+  }
+}
 
 /* .footer-dark .item.text {
   margin-bottom: 36px;
 } */
+
 @media (max-width: 767px) {
-  .footer-dark .item:not(.social) {
+  .footer-dark .item {
+    &:not(.social) {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    &.text {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.footer-dark .item {
+  &.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+  }
+
+  &.social {
     text-align: center;
-    padding-bottom: 20px; }
-  .footer-dark .item.text {
-    margin-bottom: 0; } }
-
-.footer-dark .item.text p {
-  opacity: 0.6;
-  margin-bottom: 0; }
-
-.footer-dark .item.social {
-  text-align: center; }
+  }
+}
 
 @media (max-width: 991px) {
   .footer-dark .item.social {
     text-align: center;
-    margin-top: 20px; }
+    margin-top: 20px;
+  }
+
   .btnPortfolio {
     display: inline-block;
     font-size: 1rem;
-    padding: 15px 20px; } }
+    padding: 15px 20px;
+  }
+}
 
 @media (min-width: 375px) {
   h3.nombreApellido {
     padding-top: 90px;
-    font-size: 48px; }
-  .showCase .btn {
-    margin-top: 50px; }
-  .showCase .profesionProfesion {
-    font-size: 36px;
-    margin-top: auto; }
+    font-size: 48px;
+  }
+
+  .showCase {
+    .btn {
+      margin-top: 50px;
+    }
+
+    .profesionProfesion {
+      font-size: 36px;
+      margin-top: auto;
+    }
+  }
+
   .btn {
     font-size: 1.5rem;
     padding: 20px 20px;
-    margin: 0; }
+    margin: 0;
+  }
+
   .w-50 .btn {
-    padding: 15px 40px; }
+    padding: 15px 40px;
+  }
+
   .container .btn {
     font-size: 1.5rem;
     padding: 15px 40px;
-    margin-top: 15px; }
+    margin-top: 15px;
+  }
+
   .team-boxed h2 {
     font-size: 2.5rem;
     font-weight: bold;
     padding-top: 40px;
-    color: #fff; } }
+    color: #fff;
+  }
+}
