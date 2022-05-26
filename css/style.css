@@ -1,39 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap");
 /*MIXIN*/
-.parrafosConEstilo {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 16px;
+.description {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
   text-align: center; }
 
 /*mixim con parametros*/
-.parrafosConHambre {
+.descriptionConHambre {
   font-size: 50px;
-  text-align: right; }
+  text-align: center; }
 
 /*EXTEND*/
-.primerEstilo, .segundoEstilo {
+.parrafo, .segundoEstilo {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  text-align: right; }
+  text-align: center; }
 
 .segundoEstilo {
   font-size: 36px; }
 
 /*MAPS*/
-.facebook {
-  color: red; }
-
-.instagram {
-  color: blue; }
-
-.twitter {
-  color: yellow; }
-
-.pepeLePu {
-  background-color: red;
+.copyright {
+  background-color: violet;
   font-size: 30px;
-  height: 150px;
-  width: 150px; }
+  height: 80px;
+  width: 100px; }
 
 /****************RESET****************/
 * {
@@ -230,7 +221,7 @@ h3.nombreApellido {
   font-size: 42px;
   color: #740E45; }
 
-.parrafo .profesionProfesion {
+.parrafo .profesionProfesion, .segundoEstilo .profesionProfesion {
   font-size: 32px;
   color: #740E45; }
 

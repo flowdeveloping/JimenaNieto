@@ -1,23 +1,23 @@
 /*MIXIN*/
 
-@mixin parrafos {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 16px;
+@mixin description {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
     text-align: center;
 }
 
-.parrafosConEstilo {
-    @include parrafos;
+.description {
+    @include description;
 }
 
 /*mixim con parametros*/
 
-@mixin parrafosConParametros ($size,$alineacion){
+@mixin descriptionConParametros ($size,$alineacion){
     font-size: $size;
     text-align: $alineacion;
     
 }
 
-.parrafosConHambre {
-    @include parrafosConParametros(50px, right)
+.descriptionConHambre {
+    @include descriptionConParametros(50px, center)
 }
