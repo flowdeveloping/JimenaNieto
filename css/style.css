@@ -20,10 +20,10 @@ h3 {
   font-size: 24px; }
 
 /*MAPS*/
-.copyright {
+.card-title {
   background-color: violet;
-  height: 80px;
-  width: 100px; }
+  height: 60px;
+  width: 150px; }
 
 /****************RESET****************/
 * {
@@ -314,7 +314,7 @@ h3.nombreApellido, h3.parrafo {
   color: #740e45;
   font-size: 24px;
   font-weight: 700;
-  margin: 30px 30px; }
+  margin: 10px 120px; }
 
 /************************************ABOUT ME****************************************/
 /* h2 {

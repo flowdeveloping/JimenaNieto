@@ -10,8 +10,8 @@ $mapRedes:(violet);
 
 $estilo:(color: violet);
 
-.copyright {
+.card-title {
     background-color: map-get($estilo, color);
-    height: 80px;
-    width: 100px;
+    height: 60px;
+    width: 150px;
 }
