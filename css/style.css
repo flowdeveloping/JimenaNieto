@@ -6,18 +6,18 @@
   text-align: center; }
 
 /*mixim con parametros*/
-.descriptionConHambre {
+.card-text {
   font-size: 50px;
   text-align: center; }
 
 /*EXTEND*/
-.parrafo, .segundoEstilo {
+.parrafo {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   text-align: center; }
 
-.segundoEstilo {
-  font-size: 36px; }
+.nombreApellido {
+  font-size: 24px; }
 
 /*MAPS*/
 .copyright {
@@ -221,7 +221,7 @@ h3.nombreApellido {
   font-size: 42px;
   color: #740E45; }
 
-.parrafo .profesionProfesion, .segundoEstilo .profesionProfesion {
+.parrafo .profesionProfesion, .parrafo .nombreApellido {
   font-size: 32px;
   color: #740E45; }
 
@@ -374,7 +374,7 @@ h3.nombreApellido {
     font-size: 48px; }
   .showCase .btn {
     margin-top: 50px; }
-  .showCase .profesionProfesion {
+  .showCase .profesionProfesion, .showCase .nombreApellido {
     font-size: 36px;
     margin-top: auto; }
   .btn {

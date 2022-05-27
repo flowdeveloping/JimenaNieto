@@ -12,12 +12,12 @@
 
 /*mixim con parametros*/
 
-@mixin descriptionConParametros ($size,$alineacion){
+@mixin h2 ($size,$alineacion){
     font-size: $size;
     text-align: $alineacion;
     
 }
 
-.descriptionConHambre {
-    @include descriptionConParametros(50px, center)
+.card-text {
+    @include h2(50px, center)
 }

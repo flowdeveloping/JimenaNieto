@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-.segundoEstilo {
-    @extend .parrafo;
-    font-size: 36px;
+.nombreApellido {
+    @extend .profesionProfesion;
+    font-size: 24px;
 }
