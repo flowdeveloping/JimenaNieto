@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-.nombreApellido {
-    @extend .profesionProfesion;
+.parrafo {
+    @extend .nombreApellido;
     font-size: 24px;
 }

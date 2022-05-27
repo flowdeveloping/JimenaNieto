@@ -16,13 +16,12 @@
   font-weight: bold;
   text-align: center; }
 
-.nombreApellido {
+.parrafo {
   font-size: 24px; }
 
 /*MAPS*/
 .copyright {
   background-color: violet;
-  font-size: 30px;
   height: 80px;
   width: 100px; }
 
@@ -216,12 +215,12 @@ a {
 .showCase .btn {
   margin-top: 70px; }
 
-h3.nombreApellido {
+h3.nombreApellido, h3.parrafo {
   padding-top: 90px;
   font-size: 42px;
   color: #740E45; }
 
-.parrafo .profesionProfesion, .parrafo .nombreApellido {
+.parrafo .profesionProfesion {
   font-size: 32px;
   color: #740E45; }
 
@@ -369,12 +368,12 @@ h3.nombreApellido {
     padding: 15px 20px; } }
 
 @media (min-width: 375px) {
-  h3.nombreApellido {
+  h3.nombreApellido, h3.parrafo {
     padding-top: 90px;
     font-size: 48px; }
   .showCase .btn {
     margin-top: 50px; }
-  .showCase .profesionProfesion, .showCase .nombreApellido {
+  .showCase .profesionProfesion {
     font-size: 36px;
     margin-top: auto; }
   .btn {

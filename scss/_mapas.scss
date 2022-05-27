@@ -8,11 +8,10 @@ $mapRedes:(violet);
     }
 }
 
-$estilo:(color: violet, tamFuente:30px);
+$estilo:(color: violet);
 
 .copyright {
     background-color: map-get($estilo, color);
-    font-size: map-get($estilo,tamFuente);  
     height: 80px;
     width: 100px;
 }
