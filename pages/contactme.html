@@ -70,25 +70,29 @@
     <!---------------------------------CONTACT ME/FORM----------------------------------->
    
     
-    <form class="w-50 m-auto">
+    <form action="../correos.php" method="POST" class="w-50 m-auto">
         <h2>CONTACT ME</h2>       
         
         <h3>Want to get in touch? Find me on Behance, email, Instagram or linkedin.</h3>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Name</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+            <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Name" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Lastname</label>
+            <input type="text" name="lastname" class="form-control" id="exampleFormControlInput1" placeholder="lastname" required>
         </div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Phone</label>
-            <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Phone">
+            <input type="tel" name="phone" class="form-control" id="exampleFormControlInput1" placeholder="Phone" required>
         </div>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
         </div>
         <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="If you want to contact with me..."></textarea>
+            <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="If you want to contact with me..." required></textarea>
         </div>
         <div class="col text-center">
             <button type="button" class="btn btn-estilo btn-lg">Send</button>

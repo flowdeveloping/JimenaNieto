@@ -1,23 +1,22 @@
 /*MIXIN*/
 
-@mixin description {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 24px;
-    text-align: center;
-}
+//@mixin description {
+//    font-family: 'Courier New', Courier, monospace;
+//    font-size: 24px;
+//    text-align: center;
+//}
 
-h3 {
-    @include description;
-}
+//h3 {
+//    @include description;
+//}
 
 /*mixim con parametros*/
 
-@mixin h2 ($size,$alineacion){
-    font-size: $size;
-    text-align: $alineacion;
-    
-}
+//@mixin h2 ($size,$alineacion){
+//    font-size: $size;
+//    text-align: $alineacion;
+//}
 
-.card-text {
-    @include h2(24px, center)
-}
+//.card-text {
+//    @include h2(24px, center)
+//}

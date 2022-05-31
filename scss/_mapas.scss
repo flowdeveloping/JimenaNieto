@@ -1,17 +1,17 @@
 /*MAPS*/
 
-$mapRedes:(violet);
+//$mapRedes:(violet);
 
-@each $violet, $color in $mapRedes {
-    .#{$violet}{
-        color: $color;
-    }
-}
+//@each $violet, $color in $mapRedes {
+//    .#{$violet}{
+//        color: $color;
+//    }
+//}
 
-$estilo:(color: violet);
+//$estilo:(color: violet);
 
-.card-title {
-    background-color: map-get($estilo, color);
-    height: 60px;
-    width: 150px;
-}
+//.card-title {
+//    background-color: map-get($estilo, color);
+//    height: 60px;
+//    width: 150px;
+//}

@@ -1,30 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap");
-/*MIXIN*/
-h3 {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 24px;
-  text-align: center; }
-
-/*mixim con parametros*/
-.card-text {
-  font-size: 24px;
-  text-align: center; }
-
-/*EXTEND*/
-.parrafo {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  text-align: center; }
-
-.parrafo {
-  font-size: 24px; }
-
-/*MAPS*/
-.card-title {
-  background-color: violet;
-  height: 60px;
-  width: 150px; }
-
 /****************RESET****************/
 * {
   margin: 0;
@@ -215,7 +189,7 @@ a {
 .showCase .btn {
   margin-top: 70px; }
 
-h3.nombreApellido, h3.parrafo {
+h3.nombreApellido {
   padding-top: 90px;
   font-size: 42px;
   color: #740E45; }
@@ -314,7 +288,7 @@ h3.nombreApellido, h3.parrafo {
   color: #740e45;
   font-size: 24px;
   font-weight: 700;
-  margin: 10px 120px; }
+  margin: 30px 30px; }
 
 /************************************ABOUT ME****************************************/
 /* h2 {
@@ -368,7 +342,7 @@ h3.nombreApellido, h3.parrafo {
     padding: 15px 20px; } }
 
 @media (min-width: 375px) {
-  h3.nombreApellido, h3.parrafo {
+  h3.nombreApellido {
     padding-top: 90px;
     font-size: 48px; }
   .showCase .btn {
