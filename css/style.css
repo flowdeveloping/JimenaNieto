@@ -182,7 +182,8 @@ a {
   width: 240px;
   height: 240px;
   border-radius: 500px;
-  transition: all .3s; }
+  transition: all .3s;
+  margin-left: -25px; }
   .card1:hover {
     box-shadow: 0px 0px 30px 5px #fffbff; }
 
@@ -344,11 +345,11 @@ h3.nombreApellido {
 @media (min-width: 375px) {
   h3.nombreApellido {
     padding-top: 90px;
-    font-size: 48px; }
+    font-size: 36px; }
   .showCase .btn {
-    margin-top: 50px; }
+    margin-top: 25px; }
   .showCase .profesionProfesion {
-    font-size: 36px;
+    font-size: 22px;
     margin-top: auto; }
   .btn {
     font-size: 1.5rem;

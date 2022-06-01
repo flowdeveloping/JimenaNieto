@@ -239,6 +239,7 @@ a {
   height: 240px;
   border-radius: 500px;
   transition: all .3s;
+  margin-left: -25px;
 
   &:hover {
     box-shadow: 0px 0px 30px 5px rgb(255, 251, 255);
@@ -434,6 +435,7 @@ h3.nombreApellido {
 } */
 
 @media (max-width: 767px) {
+  
   .footer-dark .item {
     &:not(.social) {
       text-align: center;
@@ -458,6 +460,7 @@ h3.nombreApellido {
 }
 
 @media (max-width: 991px) {
+  
   .footer-dark .item.social {
     text-align: center;
     margin-top: 20px;
@@ -473,16 +476,16 @@ h3.nombreApellido {
 @media (min-width: 375px) {
   h3.nombreApellido {
     padding-top: 90px;
-    font-size: 48px;
+    font-size: 36px;
   }
 
   .showCase {
     .btn {
-      margin-top: 50px;
+      margin-top: 25px;
     }
 
     .profesionProfesion {
-      font-size: 36px;
+      font-size: 22px;
       margin-top: auto;
     }
   }
