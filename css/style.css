@@ -125,7 +125,9 @@ a {
   color: #ffffff;
   border-radius: 60px;
   font-weight: 300;
-  margin-right: 25px; }
+  margin-right: -10px;
+  margin-bottom: 55px;
+  padding: 20px 40px; }
   .btn-estilo:hover {
     color: #eef4f7;
     background: #8d008d; }
@@ -141,6 +143,7 @@ a {
   font-size: 1rem;
   padding: 15px 20px;
   margin-right: 10px;
+  margin-left: 10px;
   margin-top: 10px; }
 
 /*****************HEADER-NAV*******************/
