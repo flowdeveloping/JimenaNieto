@@ -127,7 +127,6 @@ a {
   font-weight: 300;
   margin-right: -10px;
   margin-top: 15px;
-  margin-bottom: 55px;
   padding: 20px 40px; }
   .btn-estilo:hover {
     color: #eef4f7;
@@ -191,7 +190,7 @@ a {
     box-shadow: 0px 0px 30px 5px #fffbff; }
 
 .showCase .btn {
-  margin-top: 70px; }
+  margin-top: 25px; }
 
 h3.nombreApellido {
   padding-top: 90px;
