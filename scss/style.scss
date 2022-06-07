@@ -384,6 +384,17 @@ h3.nombreApellido {
   }
 }
 
+.footer-dark .item {
+  &.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+  }
+
+  &.social {
+    text-align: center;
+  }
+}
+
 /***********************************PORTFOLIO*************************************/
 
 .card-title {
@@ -413,43 +424,12 @@ h3.nombreApellido {
   padding-top: 80PX;
 }
 
+
 /*********************************MEDIA QUERIE***********************************/
 
 /*************************MQ HEADER MOBILE***********************/
 
-@media (max-width: 767px) {
-  .team-boxed h2 {
-    margin-bottom: 25px;
-    padding-top: 25px;
-    font-size: 24px;
-  }
-}
 
-
-@media (max-width: 767px) {
-  
-  .footer-dark .item {
-    &:not(.social) {
-      text-align: center;
-      padding-bottom: 20px;
-    }
-
-    &.text {
-      margin-bottom: 0;
-    }
-  }
-}
-
-.footer-dark .item {
-  &.text p {
-    opacity: 0.6;
-    margin-bottom: 0;
-  }
-
-  &.social {
-    text-align: center;
-  }
-}
 
 @media (max-width: 991px) {
   
@@ -474,6 +454,27 @@ h3.nombreApellido {
   }
   
 }
+
+@media (max-width: 767px) {
+  
+  .footer-dark .item {
+    &:not(.social) {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    &.text {
+      margin-bottom: 0;
+    }
+  }
+  .team-boxed h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+
 
 @media (max-width: 375px) {
   h3.nombreApellido {
