@@ -404,7 +404,7 @@ h3.nombreApellido {
 }
 
 .card-text {
-  font-size: 16PX;
+  font-size: 18PX;
 }
 
 /****************************************CONTACT ME*********************************/
@@ -465,15 +465,9 @@ h3.nombreApellido {
   }
 }
 
-@media (max-width: 1126px) {
-  
-  .card-text {
-    font-size: 20PX;
-  }
-  
-}
 
-@media (max-width: 810px) {
+
+@media (max-width: 820px) {
   
   .card-text {
     font-size: 16PX;
