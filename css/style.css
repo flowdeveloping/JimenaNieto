@@ -1,13 +1,70 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap");
 /****************RESET****************/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0; }
 
-/****************GENERALES****************/
 html, body {
   font-family: 'Nunito', sans-serif; }
 
+/*****************HEADER-NAV*******************/
+.collapse {
+  justify-content: end; }
+
+.cabezaPrincipal {
+  background: #740e45;
+  background: linear-gradient(180deg, #740e45 0%, #d0388a 100%); }
+
+.cabezaNav {
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .cabezaNav a {
+    color: #ffffff;
+    font-weight: 900; }
+  .cabezaNav img {
+    height: 30px; }
+  .cabezaNav ul {
+    list-style: none; }
+    .cabezaNav ul li a {
+      display: block;
+      padding: 20px; }
+
+/******************FOOTER******************/
+.footer-dark {
+  margin-top: 50px;
+  padding: 35px 0;
+  color: #f0f9ff;
+  background-color: #282d32; }
+  .footer-dark .item.social > a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 60%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75; }
+    .footer-dark .item.social > a:hover {
+      opacity: 0.9; }
+  .footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0; }
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0; }
+
+.footer-dark .item.social {
+  text-align: center; }
+
+/****************GENERALES****************/
 h2 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -146,29 +203,6 @@ a {
   margin-left: 10px;
   margin-top: 10px; }
 
-/*****************HEADER-NAV*******************/
-.collapse {
-  justify-content: end; }
-
-.cabezaPrincipal {
-  background: #740e45;
-  background: linear-gradient(180deg, #740e45 0%, #d0388a 100%); }
-
-.cabezaNav {
-  overflow: auto;
-  padding-top: 20px;
-  padding-bottom: 20px; }
-  .cabezaNav a {
-    color: #ffffff;
-    font-weight: 900; }
-  .cabezaNav img {
-    height: 30px; }
-  .cabezaNav ul {
-    list-style: none; }
-    .cabezaNav ul li a {
-      display: block;
-      padding: 20px; }
-
 /*****************MAIN*******************/
 .showCase {
   background-image: url(../img/background.png);
@@ -258,40 +292,6 @@ h3.nombreApellido {
       opacity: 0.7; }
       .team-boxed .social a:hover {
         opacity: 1; }
-
-/******************FOOTER******************/
-.footer-dark {
-  margin-top: 50px;
-  padding: 35px 0;
-  color: #f0f9ff;
-  background-color: #282d32; }
-  .footer-dark .item.social > a {
-    font-size: 20px;
-    width: 36px;
-    height: 36px;
-    line-height: 36px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 60%;
-    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
-    margin: 0 8px;
-    color: #fff;
-    opacity: 0.75; }
-    .footer-dark .item.social > a:hover {
-      opacity: 0.9; }
-  .footer-dark .copyright {
-    text-align: center;
-    padding-top: 24px;
-    opacity: 0.3;
-    font-size: 13px;
-    margin-bottom: 0; }
-
-.footer-dark .item.text p {
-  opacity: 0.6;
-  margin-bottom: 0; }
-
-.footer-dark .item.social {
-  text-align: center; }
 
 /***********************************PORTFOLIO*************************************/
 .card-title {

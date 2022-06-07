@@ -1,24 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+@import "variables";
+@import "reset";
+@import "header";
+@import "footer";
 
-/****************RESET****************/
-
-* {
-  margin: 0;
-  padding: 0;
-}
 
 /****************GENERALES****************/
-
-html, body {
-  font-family: 'Nunito', sans-serif;
-}
 
 h2 {
   font-size: 2.5rem;
   font-weight: 700;
   padding-bottom: 50px;
   margin-top: 60px;
-  color: #740E45;
+  color: $color_principal;
   text-align: center;
 }
 
@@ -28,7 +21,7 @@ h3 {
   margin-top: 30px;
   margin-bottom: 30px;
   font-weight: 800;
-  color: #740E45;
+  color: $color_principal;
   text-align: center;
 }
 
@@ -151,7 +144,7 @@ a {
 
 
 .btn-estilo {
-  background-color: #740E45;
+  background-color: $color_principal;
   color: #ffffff;
   border-radius: 60px;
   font-weight: 300;
@@ -183,40 +176,7 @@ a {
   margin-top: 10px;
 }
 
-/*****************HEADER-NAV*******************/
 
-.collapse {
-  justify-content: end;
-}
-
-.cabezaPrincipal {
-  background: rgb(116, 14, 69);
-  background: linear-gradient(180deg, rgba(116, 14, 69, 1) 0%, rgba(208, 56, 138, 1) 100%);
-}
-
-.cabezaNav {
-  overflow: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-  a {
-    color: #ffffff;
-    font-weight: 900;
-  }
-
-  img {
-    height: 30px;
-  }
-
-  ul {
-    list-style: none;
-
-    li a {
-      display: block;
-      padding: 20px;
-    }
-  }
-}
 
 /*****************MAIN*******************/
 
@@ -251,12 +211,12 @@ a {
 h3.nombreApellido {
   padding-top: 90px;
   font-size: 42px;
-  color: #740E45;
+  color: $color_principal;
 }
 
 .parrafo .profesionProfesion {
   font-size: 32px;
-  color: #740E45;
+  color: $color_principal;
 }
 
 /*****************PORTFOLIO*******************/
@@ -349,51 +309,7 @@ h3.nombreApellido {
   }
 }
 
-/******************FOOTER******************/
 
-.footer-dark {
-  margin-top: 50px;
-  padding: 35px 0;
-  color: #f0f9ff;
-  background-color: #282d32;
-
-  .item.social > a {
-    font-size: 20px;
-    width: 36px;
-    height: 36px;
-    line-height: 36px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 60%;
-    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
-    margin: 0 8px;
-    color: #fff;
-    opacity: 0.75;
-
-    &:hover {
-      opacity: 0.9;
-    }
-  }
-
-  .copyright {
-    text-align: center;
-    padding-top: 24px;
-    opacity: 0.3;
-    font-size: 13px;
-    margin-bottom: 0;
-  }
-}
-
-.footer-dark .item {
-  &.text p {
-    opacity: 0.6;
-    margin-bottom: 0;
-  }
-
-  &.social {
-    text-align: center;
-  }
-}
 
 /***********************************PORTFOLIO*************************************/
 
@@ -516,6 +432,7 @@ h3.nombreApellido {
     color: #fff;
   }
 }
+
 
 .disclaimer {
   display: none;
