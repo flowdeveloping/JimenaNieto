@@ -298,10 +298,10 @@ h3.nombreApellido {
   margin: auto; }
 
 .card-body {
-  margin-top: 50px; }
+  margin-top: 0; }
 
 .card-text {
-  font-size: 24PX; }
+  font-size: 16PX; }
 
 /****************************************CONTACT ME*********************************/
 .w-50 h2 {
@@ -337,6 +337,14 @@ h3.nombreApellido {
     display: inline-block;
     font-size: 1rem;
     padding: 15px 20px; } }
+
+@media (max-width: 1126px) {
+  .card-text {
+    font-size: 20PX; } }
+
+@media (max-width: 810px) {
+  .card-text {
+    font-size: 16PX; } }
 
 @media (max-width: 375px) {
   h3.nombreApellido {
