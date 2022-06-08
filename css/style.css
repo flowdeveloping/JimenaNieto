@@ -338,7 +338,17 @@ h3.nombreApellido {
   .team-boxed h2 {
     margin-bottom: 25px;
     padding-top: 25px;
-    font-size: 24px; } }
+    font-size: 24px; }
+  .btn {
+    font-size: 1rem;
+    padding: 10px 15px;
+    margin: 0 -35px; }
+  .card1 {
+    margin-left: -65px; }
+  .showCase .profesionProfesion {
+    font-size: 22px; }
+  h3.nombreApellido {
+    font-size: 30px; } }
 
 @media (max-width: 375px) {
   h2 {
@@ -352,16 +362,6 @@ h3.nombreApellido {
   .showCase .profesionProfesion {
     font-size: 28px;
     margin-top: auto; }
-  .btn {
-    font-size: 1rem;
-    padding: 10px 15px;
-    margin: 0 -35px; }
-  .card1 {
-    margin-left: -68px; }
-  .showCase .profesionProfesion {
-    font-size: 22px; }
-  h3.nombreApellido {
-    font-size: 30px; }
   .w-50 .btn {
     padding: 15px 40px; }
   .container .btn {
