@@ -330,8 +330,10 @@ h3.nombreApellido {
 
 /****************************************CONTACT ME*********************************/
 
-.w-50 h2 {
+.w-50 {
+  h2 {
   padding-top: 80PX;
+}
 }
 
 
@@ -387,6 +389,10 @@ h3.nombreApellido {
 
 
 @media (max-width: 375px) {
+  h2 {
+    font-size: 2rem;
+    }
+    
   h3.nombreApellido {
     padding-top: 90px;
     font-size: 36px;
@@ -395,6 +401,7 @@ h3.nombreApellido {
   .showCase {
     .btn {
       margin-top: 25px;
+      padding: 15px 18px;
     }
 
     .profesionProfesion {
@@ -404,9 +411,21 @@ h3.nombreApellido {
   }
 
   .btn {
-    font-size: 1.5rem;
-    padding: 20px 20px;
-    margin: 0;
+    font-size: 1rem;
+    padding: 10px 15px;
+    margin: 0 -35px;
+   }
+
+   .card1 {
+    margin-left: -68px;
+  }
+
+  .showCase .profesionProfesion {
+    font-size: 22px;
+  }
+
+  h3.nombreApellido {
+   font-size: 30px;
   }
 
   .w-50 .btn {
@@ -424,6 +443,12 @@ h3.nombreApellido {
     font-weight: bold;
     padding-top: 40px;
     color: #fff;
+  }
+
+  .btnPortfolio1 {
+    
+    margin-right: -6px;
+    margin-left: 19px;
   }
 }
 
