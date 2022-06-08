@@ -332,8 +332,8 @@ h3.nombreApellido {
 
 .w-50 {
   h2 {
-  padding-top: 80PX;
-}
+    padding-top: 80PX;
+  }
 }
 
 
@@ -344,7 +344,7 @@ h3.nombreApellido {
 
 
 @media (max-width: 991px) {
-  
+
   .footer-dark .item.social {
     text-align: center;
     margin-top: 20px;
@@ -360,15 +360,15 @@ h3.nombreApellido {
 
 
 @media (max-width: 820px) {
-  
+
   .card-text {
     font-size: 16PX;
   }
-  
+
 }
 
 @media (max-width: 767px) {
-  
+
   .footer-dark .item {
     &:not(.social) {
       text-align: center;
@@ -379,6 +379,7 @@ h3.nombreApellido {
       margin-bottom: 0;
     }
   }
+
   .team-boxed h2 {
     margin-bottom: 25px;
     padding-top: 25px;
@@ -386,18 +387,18 @@ h3.nombreApellido {
   }
 
   .btn {
-    font-size: 1rem;
-    padding: 10px 15px;
+    font-size: 1.5rem;
+    padding: 20px 40px;
     margin: 0 -35px;
-   }
+  }
 
-   
+
   .showCase .profesionProfesion {
     font-size: 22px;
   }
 
   h3.nombreApellido {
-   font-size: 30px;
+    font-size: 30px;
   }
 
 }
@@ -407,16 +408,17 @@ h3.nombreApellido {
 @media (max-width: 375px) {
   h2 {
     font-size: 2rem;
-    }
-    
+  }
+
   h3.nombreApellido {
     padding-top: 90px;
     font-size: 36px;
   }
+
   .card1 {
     margin-left: -65px;
   }
-  
+
 
   .showCase {
     .btn {
@@ -448,7 +450,7 @@ h3.nombreApellido {
   }
 
   .btnPortfolio1 {
-    
+
     margin-right: -6px;
     margin-left: 19px;
   }
